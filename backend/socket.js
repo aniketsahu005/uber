@@ -7,7 +7,7 @@ let io;
 function initializeSocket(server) {
     io = socketIo(server, {
         cors: {
-            origin: 'http://localhost:5173',
+            origin: 'https://uber1-bty7.onrender.com',
             methods: [ 'GET', 'POST' ]
         }
     });
